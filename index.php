@@ -6,7 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" href="barber.css">
-  <link rel="shortcut icon" href="Images/">
+
 </head>
 <body>
 <!--Name-->
@@ -22,7 +22,6 @@
 							<li><a href="#serv">Services <span class="fa fa-list-alt"></span></a></li>
 							<li><a href="#loc">Location <span class="fa fa-map-marker"></span></a></li>
 							<li><a href="#con">Contact <span class="fa fa-phone"></span></a></li>
-							<li class="promo"></li>
 						</ul>
 					</div>
 				</div>
@@ -34,6 +33,14 @@
 	</section>
 	</div>
 </div>
+<div class="row">
+	<div class="col-12">
+		<h3 class="title">Why the Name Elite?</h3>
+		<div class="rev">
+			<p>Elite Barber Shop provides a comfortable environment to relax, listen to light music or watch sports while getting your haircut or service. I know your time is valuable so schedule an appointment and cut out the wait time.</p>
+		</div>
+	</div>
+</div>
 <!--Reviews-->
 <div class="row">
 	<div class="col-12">
@@ -41,27 +48,35 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-4">
+	<div class="col-3">
 		<div class="rev">
 			<div class="star"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></div>
-			<p>"Best barber in town!"</p>
-			<p class="name"><strong>- Signer</strong></p>
+			<p>"Best barber in Georgetown!"</p>
+			<p class="name"><strong>- Person</strong></p>
 		</div>
 	</div>
 	
-	<div class="col-4">
+	<div class="col-3">
+		<div class="rev">
+			<div class="star"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></div>
+			<p>"Best barber I've seen in a long time."</p>
+			<p class="name"><strong>- Person</strong></p>
+		</div>
+	</div>
+		
+	<div class="col-3">
 		<div class="rev">
 			<div class="star"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></div>
 			<p>"Friendly, skilled, talented!"</p>
-			<p class="name"><strong>- Signer</strong></p>
+			<p class="name"><strong>- Person</strong></p>
 		</div>
 	</div>
-	
-	<div class="col-4">
+		
+	<div class="col-3">
 		<div class="rev">
 			<div class="star"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></div>
-			<p>"Hands down, best service I ever had!"</p>
-			<p class="name"><strong>- Signer</strong></p>
+			<p>"Fantastic service for a reasonable price. We have found a new barber!"</p>
+			<p class="name"><strong>- Person</strong></p>
 		</div>
 	</div>
 </div>
@@ -82,23 +97,73 @@
 			<div class="panel">
 				<h3>Hair Cuts</h3>
  				<p>Do you need a trim or want a whole new hairstyle? Come in and let me trim your hair to your specifications!</p>
+				<br />
+				<center><p>ADULT HAIRCUT  $15<br/>
+					HAIRCUT AND BEARD TRIM  $20<br/>
+					KIDS 12 & UNDER  $12<br />
+					SHAPE UP  $8<br />
+					BEARD TRIM  $10<br /></p></center>
 			</div>
 
 		<button class="accordion">Hot Towel Facial <span class="fa fa-caret-down"></span></button>
 			<div class="panel">
 				<h3>Facial</h3>
-				<p>Are the muscles in you face tense? Is your skin dry? Drive out and let me help your face relax with a hot towel treatment!</p>
+				<p>The facial refreshes and cleanses the face & hair to remove sweat, build-up, excess oil and other impurities. This is also a way to treat yourself to an ultimate end of the week treat. </p>
+				<br />
+				<center><p>FACIAL  $10</p></center>
+			</div>
+			
+		<button class="accordion">Beard Trim & Facial <span class="fa fa-caret-down"></span></button>
+			<div class="panel">
+				<h3>Beard Trim & Facial</h3>
+				<p>Reshape and redefine the beard and mustache. Included in this service is an essential oil infused hot towel treatment.</p>
+				<br />
+				<p>BEARD TRIM & FACIAL  $15</p>
 			</div>
 
 		<button class="accordion">Shave <span class="fa fa-caret-down"></span></button>
 			<div class="panel">
 				<h3>Shave</h3>
- 				<p>Do you have unruly facial hair? Do you just want something fresh? Sit down and let me mold your mane into the look that suits you!</p>
+ 				<p>Old-fashioned, single-blade razor shave, with the direction of the hair growth on the face. Included in this service is lather and multiple essential oil treated hot towels.</p>
+				<br />
+				<p>CLASSIC SHAVE  $20</p>
 			</div>
 		<button class="accordion">Image Gallery <span class="fa fa-caret-down"></span></button>
 			<div class="panel">
 				<h3>Image Gallery</h3>
- 				<p></p>
+ 				<p>
+<div class="row">
+
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="Images/Man 1.jpg" style="width:100%" alt="client 1">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images/Man 3.jpg" style="width:100%" alt="client 2">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="Images/Man 4.jpg" style="width:100%" alt="client 3">
+  </div>
+  
+  <div class="mySlides fade">
+    <img src="Images/Man 5.jpg" style="width:100%" alt="client 4">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+</div>
+				</p>
 			</div>
 	</div>
 </div>
@@ -148,10 +213,11 @@
 			<h3 class="title">Hours of Operation</h3>
 			<div id="times">
 			<ul>
-				<li>Tuesday-Wedsnesday: 9:00 A.M. - 5:00 P.M.</li>
-				<li>Thursday-Friday: 9:00 A.M. - 6:00 P.M.</li>
+				<li>Monday-Tuesday: 10:00 A.M. - 5:00 P.M.</li>
+				<li>Wednesday: Closed</li>
+				<li>Thursday-Friday: 10:00 A.M. - 6:00 P.M.</li>
 				<li>Saturday: 9:00 A.M. - 3:00 P.M.</li>
-				<li>Sunday-Monday: Closed</li>
+				<li>Sunday: Closed</li>
 			</ul>
 			</div>
 		</div>
@@ -163,12 +229,12 @@
 			<ul>
 				<li><span class="fa fa-user"></span> Person</li>
 				<li><span class="fa fa-phone"></span> Phone Number</li>
-				<li><span class="fa fa-envelope"></span> Email</li>
+				<li><span class="fa fa-envelope"></span> <span class="emailT">email@web.com</span></li>
 				<li><span class="fa fa-map"></span> Street Address<br /> City, State AreaCode</li>
 			</ul>
+			</div>
 		</div>
 	</div>
-</div>
 </div>
 <div class="row">
 	<div class="col-6">
@@ -176,17 +242,17 @@
 			<h3 class="title">Social Media</h3>
 			<div id="timesSoc">
 			<ul>
-				<li><a href="https://www.facebook.com/Elite-Barber-Shop-1690990447846266/info"><span class="fa fa-facebook-square fa-5x"></span></a></li>
-				<li><a href="https://twitter.com/TheBarberRome?lang=en"><span class="fa fa-twitter-square fa-5x"></span></a></li>
+				<li><a href="https://www.facebook.com"><span class="fa fa-facebook-square fa-5x"></span></a></li>
+				<li><a href="https://twitter.com"><span class="fa fa-twitter-square fa-5x"></span></a></li>
 			</ul>
 			</div>
 		</div>
 	</div>
 	<div class="col-6">
 		<div class="textBoxCon">
-			<h3 class="title">Email Person!</h3>
+			<h3 class="title">Email Jerome!</h3>
 			<div class="panelF">
-			<form action="<?php htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+			<form action="" method="post">
 				<center><span class="label">Name:</span> <input class="input" name="name"></center>
 				<br />
 				<center><span class="label">Email:</span> <input class="input" name="email"></center>
@@ -255,5 +321,3 @@
 	
 	mail("email@web.com", $sub, $text, "From: ". $email);
 ?>
-</body>
-</html>

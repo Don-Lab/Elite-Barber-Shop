@@ -1,4 +1,5 @@
-/*CSS Barber Shop*/
+@charset "UTF-8";
+
 body {
 	background-color: #80716a;
 }
@@ -125,8 +126,8 @@ h2 {
 		width: 100%;
 		height: auto;
 	}
-	.promo {
-		
+	#times li .emailT {
+		font-size: 14pt;
 	}
 }
 
@@ -189,7 +190,7 @@ h2 {
 	padding: 10px;
 	color: #a6a89c;
 	font-size: 150%;
-	font-family: tahoma;
+	font-family: Tahoma;
 }
 
 #timesSoc ul {
@@ -197,7 +198,6 @@ h2 {
 	background-color: #1F282D;
 	border-radius: 5px;
 	text-align: center;
-
 	padding: 10px;
 }
 #timesSoc li {
@@ -207,6 +207,7 @@ h2 {
 	font-family: tahoma;
 	display: inline;
 }
+
 /*for icons*/
 #timesSoc li a {
 	text-decoration: none;
@@ -256,7 +257,7 @@ div.panel.show {
 }
 .panel p {
 	text-align: center;
-	font-size:120%;
+	font-size: 120%;
 }
 
 /*Reviews*/
@@ -266,16 +267,24 @@ div.panel.show {
 .rev {
 	text-align: center;
 	margin: 10px;
-	font-size: 150%;
 	font-family: Tahoma;
 	color: #CDCDC0;
 	background-color: #1F282D;
 	padding: 7px;
 	border-radius: 5px;
 }
+.rev h3 {
+	font-style: bold;
+	font-size: 150%;
+}
+.rev p {
+	font-size: 120%;
+}
 .name {
 	font-style: italic;
+	font-size: 120%;
 }
+
 
 /*Forms*/
 .label {
@@ -296,7 +305,7 @@ div.panel.show {
 }
 textarea {
 	width: 100%;
-	height: 25%
+	height: 25%;
 }
 .button {
 	padding: 10px;
@@ -346,4 +355,68 @@ textarea {
 }
 #footNav li a:hover {
 	color: #D1D3C3;
+}
+
+.slideshow-container {
+  max-width: 750px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
